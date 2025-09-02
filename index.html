@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            /* Added background image for a school/college */
+            background-image: url('https://source.unsplash.com/random/?school,college'); /* Random school/college image */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #333; /* Adjust text color for better contrast */
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background for readability */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+            width: 350px; /* Slightly wider container */
+            max-width: 90%; /* Responsive width */
+            text-align: center;
+        }
+        .logo {
+            width: 100px;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 50%; /* Make logo round */
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #0056b3; /* Darker blue for heading */
+            margin-bottom: 25px;
+        }
+        .form-group {
+            margin-bottom: 18px; /* Slightly more space between form groups */
+            text-align: left;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 7px; /* More space for labels */
+            font-weight: bold;
+            color: #555;
+        }
+        .form-group input {
+            width: calc(100% - 16px); /* Adjust width for padding */
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #bbb; /* Slightly darker border */
+            border-radius: 5px; /* Slightly more rounded input fields */
+            font-size: 16px;
+        }
+        button {
+            width: 100%;
+            padding: 12px; /* Taller button */
+            background-color: #28a745; /* Green button for "Register" */
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px; /* Larger font on button */
+            font-weight: bold;
+            transition: background-color 0.3s ease; /* Smooth transition on hover */
+        }
+        button:hover {
+            background-color: #218838; /* Darker green on hover */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <img src="your-logo.png" alt="Your Logo" class="logo">
+    <h2>Register Now</h2>
+    <form action="#" method="post">
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <button type="submit">Register</button>
+    </form>
+</div>
+
+</body>
+  </html>
+  
